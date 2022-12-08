@@ -1,0 +1,112 @@
+.features-content {
+  display: flex;
+  justify-content: center;
+}
+
+.features-left {
+  flex: 1;
+  text-align: center;
+}
+
+.features-left img {
+  width: 65%;
+}
+
+.features-right {
+  flex: 1;
+}
+
+.u-text-small {
+  font-size: 1.3rem;
+  line-height: 1.4;
+  font-weight: 100;
+}
+
+.u-text-light {
+  color: #607d8b;
+}
+.u-text-dark {
+  color: #2463e9;
+}
+
+.u-text-center {
+  text-align: center;
+}
+
+/* Title */
+.u-title {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.u-title h2 {
+  font-size: 2.5rem;
+  font-weight: 300;
+  line-height: 1.4;
+  text-transform: uppercase;
+  color: var(--dark-text);
+  margin: 1.5rem 0;
+}
+
+.u-title p {
+  width: 50%;
+  min-width: 40rem;
+  margin: 0 auto;
+  color: var(--dark-text);
+}
+
+#lotties {
+  height: 430px;
+  width: 420px;
+  margin-left: 4rem;
+}
+
+@media screen and (max-width: 600px) {
+  #lotties {
+    height: 300px;
+    width: 300px;
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+  }
+}
+@media screen and (max-width: 2200px) {
+  #lotties {
+    margin-left: -60%;
+  }
+  .features-right {
+    margin-left: -33%;
+  }
+  .u-title {
+    margin-left: -55%;
+  }
+}
+@media screen and (max-width: 1800px) {
+  #lotties {
+    margin-left: -35%;
+  }
+  .features-right {
+    margin-left: -13%;
+  }
+  .u-title {
+    margin-left: -35%;
+  }
+}
+@media screen and (max-width: 1600px) {
+  #lotties {
+    margin-left: -15%;
+  }
+}
+@media screen and (max-width: 1500px) {
+  #lotties {
+    margin-left: -10%;
+  }
+}
+@media screen and (max-width: 1400px) {
+  #lotties {
+    margin-left: -0%;
+  }
+  .u-title {
+    margin-left: -25%;
+  }
+}

@@ -1,0 +1,12 @@
+#lottien {
+  height: 450px;
+  width: 550px;
+  margin-right: 8rem;
+  margin-top: -2rem;
+}
+@media screen and (max-width: 600px) {
+  #lottien {
+    height: 250px;
+    width: 350px;
+  }
+}
